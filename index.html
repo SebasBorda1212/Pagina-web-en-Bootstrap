@@ -14,33 +14,42 @@
 
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">JOAN BORDA</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bold text-primary d-flex align-items-center" href="index.html">
+            <img src="IMG/logo.png" alt="Logo Foodog" width="40" height="40" class="me-2 rounded-circle">
+            Foodog
+        </a>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">INICIO</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">PRODUCTOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">PRECIOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">CONTACTO</a>
-                    </li>
-                </ul>
-            </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-primary fw-bold" aria-current="page" href="index.html">
+                        <i class="bi bi-house-door"></i></i>INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-primary fw-bold" href="productos.html">
+                        <i class="bi bi-shop"></i></i>PRODUCTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-primary fw-bold" href="precios.html">
+                        <i class="bi bi-coin"></i></i>PRECIOS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-primary fw-bold" href="contacto.html">
+                        <i class="bi bi-person-lines-fill"></i> CONTACTO
+                    </a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <!-- Carousel -->
     <div id="carouselExampleIndicators" class="carousel slide">
@@ -78,24 +87,22 @@
     </div>
 
     <!-- Clients Section -->
-    <div class="container-fluid bg-success-subtle py-4 text-center">
+    <div class="container-fluid bg-primary-subtle py-4 text-center">
         <div class="container">
             <div class="row">
-                <div class="col"><img src="IMG/clients-1.webp" alt="" style="max-width: 80px;"></div>
-                <div class="col"><img src="IMG/clients-2.webp" alt="" style="max-width: 80px;"></div>
-                <div class="col"><img src="IMG/clients-3.webp" alt="" style="max-width: 80px;"></div>
-                <div class="col"><img src="IMG/clients-4.webp" alt="" style="max-width: 80px;"></div>
-                <div class="col"><img src="IMG/clients-5.webp" alt="" style="max-width: 80px;"></div>
-                <div class="col"><img src="IMG/clients-6.webp" alt="" style="max-width: 80px;"></div>
-                <div class="col"><img src="IMG/clients-7.webp" alt="" style="max-width: 80px;"></div>
-                <div class="col"><img src="IMG/clients-8.webp" alt="" style="max-width: 80px;"></div>
+                <div class="col-6 cols-md-4 col-lg-2"><img src="IMG/clients-1.webp" alt="" style="max-width: 80px;"></div>
+                <div class="col-6 cols-md-4 col-lg-2"><img src="IMG/clients-2.webp" alt="" style="max-width: 80px;"></div>
+                <div class="col-6 cols-md-4 col-lg-2"><img src="IMG/clients-5.webp" alt="" style="max-width: 80px;"></div>
+                <div class="col-6 cols-md-4 col-lg-2"><img src="IMG/clients-6.webp" alt="" style="max-width: 80px;"></div>
+                <div class="col-6 cols-md-4 col-lg-2"><img src="IMG/clients-7.webp" alt="" style="max-width: 80px;"></div>
+                <div class="col-6 cols-md-4 col-lg-2"><img src="IMG/clients-8.webp" alt="" style="max-width: 80px;"></div>
             </div>
         </div>
     </div>
 
     <!-- About Section -->
     <div class="container mt-5">
-        <h2 class="text-center">DEBERÍAS SABER QUE...</h2>
+        <h2 class="text-center text-primary fw-bold">DEBERÍAS SABER QUE...</h2>
 
         <div class="row">
             <div class="col">
@@ -120,7 +127,7 @@
 
         <div class="row mt-4">
             <div class="col text-center">
-                <button type="button" class="btn btn-outline-primary" disabled>MAS INFORMACION....</button>
+                <a href="#" class="btn btn-primary">Mas informacion...</a>
             </div>
         </div>
     </div>
@@ -128,14 +135,14 @@
 
     <!-- Cards Section -->
     <div class="container mt-5 d-none d-md-block">
-        <h2 class="text-center">MARCAS MAS VENDIDAS...</h2>
+        <h2 class="text-center text-primary fw-bold">MARCAS MAS VENDIDAS...</h2>
         <div class="row">
             <!-- Card 1 -->
             <div class="col-md-4">
                 <div class="card border-0 text-center">
                     <img src="IMG/tar1.jpg" class="card-img-top rounded-circle" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Pedigree</h5>
+                        <h5 class="card-title text-primary fw-bold">Pedigree</h5>
                         <p class="card-text">
                             Pedigree es una reconocida marca de alimentos para perros del grupo Mars, Inc., que ofrece
                             productos balanceados y accesibles para todas las etapas de vida. Sus concentrados aportan
@@ -152,7 +159,7 @@
                 <div class="card border-0 text-center">
                     <img src="IMG/tar2.jpg" class="card-img-top rounded-circle" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Dog Chow</h5>
+                        <h5 class="card-title text-primary fw-bold">Dog Chow</h5>
                         <p class="card-text">
                             Dog Chow, marca de Purina, ofrece alimentos balanceados diseñados para cada etapa y tamaño
                             de los perros. Sus fórmulas incluyen proteínas de calidad, calcio, fósforo y prebióticos que
@@ -169,7 +176,7 @@
                 <div class="card border-0 text-center">
                     <img src="IMG/tar3.jpg" class="card-img-top rounded-circle" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Nutrecan</h5>
+                        <h5 class="card-title text-primary fw-bold">Nutrecan</h5>
                         <p class="card-text">
                             Nutrecan es una marca colombiana de alimento para perros que ofrece fórmulas equilibradas
                             según la edad y el tamaño de cada mascota. Sus productos contienen proteínas de alta
@@ -194,7 +201,7 @@
                 </div>
 
                 <div class="col-md-7 p-4">
-                    <h3 class="fw-bold">BENEFICIOS EN RAZAS GRANDES</h3>
+                    <h3 class="fw-bold text-primary fw-bold">BENEFICIOS EN RAZAS GRANDES</h3>
                     <p class="card-text mb-4">
                         El concentrado para perros de razas grandes ofrece beneficios específicos que ayudan a mantener
                         su salud y vitalidad. Aporta una alta cantidad de proteínas para fortalecer los músculos y
@@ -204,7 +211,7 @@
                         ayuda a controlar el peso, mejorar la digestión y mantener un corazón fuerte, garantizando una
                         vida activa y saludable.
                     </p>
-                    <button class="btn btn-success px-4 py-2">SABER MAS...</button>
+                    <button class="btn btn-primary">SABER MAS...</button>
                 </div>
             </div>
         </div>
@@ -215,7 +222,7 @@
         <div class="card mb-3 border-0" style="max-width: 100%;">
             <div class="row g-0 align-items-center">
                 <div class="col-md-7 p-4">
-                    <h3 class="fw-bold">BENEFICIOS EN RAZAS PAQUEÑAS</h3>
+                    <h3 class="fw-bold text-primary fw-bold">BENEFICIOS EN RAZAS PAQUEÑAS</h3>
                     <p class="card-text mb-4">
                         El concentrado para perros de razas pequeñas está formulado para cubrir sus altas necesidades
                         energéticas y mantenerlos saludables. Contiene proteínas de calidad que fortalecen los músculos,
@@ -224,7 +231,7 @@
                         6 que mantienen el pelaje brillante y la piel sana, y nutrientes que favorecen una buena
                         digestión, brindando energía, vitalidad y bienestar diario a los perros pequeños.
                     </p>
-                    <button class="btn btn-success px-4 py-2">SABER MAS...</button>
+                    <button class="btn btn-primary">SABER MAS...</button>
                 </div>
                 <div class="col-md-5">
                     <img src="IMG/imagen 5.jpg" class="img-fluid rounded-end" alt="Cursos SENA">
@@ -240,25 +247,20 @@
         }
     </style>
 
-    <footer class="container-fluid footer-gray p-5 text-center text-dark">
+    <footer class="container-fluid bg-primary-subtle p-5 text-center text-dark">
         <div class="row">
             <div class="col">
-                <a href="#" class="text-decoration-none text-success">
+                <a href="index.html" class="text text-decoration-none text-primary fw-bold">
                     <i class="bi bi-info-circle-fill"></i>INFORMACION
                 </a>
             </div>
             <div class="col">
-                <a href="#" class="text-decoration-none text-success">
-                    <i class="bi bi-file-earmark-image-fill"></i>IMAGENES
-                </a>
-            </div>
-            <div class="col">
-                <a href="#" class="text-decoration-none text-success">
+                <a href="productos.html" class="text text-decoration-none text-primary fw-bold">
                     <i class="bi bi-check2-circle"></i>MARCAS
                 </a>
             </div>
             <div class="col">
-                <a href="#" class="text-decoration-none text-success">
+                <a href="contacto.html" class="text text-decoration-none text-primary fw-bold">
                     <i class="bi bi-person-lines-fill"></i>CONTACTO
                 </a>
             </div>
